@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="origin" revision="refs/heads/master" groups="pdk" >
+  <project path="build" name="android_build" remote="origin" revision="refs/heads/cm-11.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
