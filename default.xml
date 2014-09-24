@@ -507,5 +507,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="android_vendor_cm" remote="origin" revision="refs/heads/cm-11.0_5422" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/samsung_slsi" name="android_vendor_samsung_slsi" groups="pdk" remote="origin" revision="refs/heads/5422_4.4.4_master" >
+  <project path="vendor/samsung_slsi" name="android_vendor_samsung_slsi" groups="pdk" remote="origin" revision="refs/heads/5422_4.4.4_master" />
 </manifest>
