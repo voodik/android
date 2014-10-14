@@ -357,7 +357,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
-  <project path="kernel/hardkernel/odroidu" name="android_kernel_hardkernel_odroidu" remote="origin" revision="refs/heads/odroid-3.0.y-android" />
+  <project path="kernel/hardkernel/odroidu" name="android_kernel_hardkernel_odroidu" remote="origin" revision="refs/heads/cm-11.0_4412_carpc" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
