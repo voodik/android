@@ -52,7 +52,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/hardkernel/odroidxu3" name="android_device_hardkernel_odroidxu3" remote="origin" revision="refs/heads/master" groups="device" >
+  <project path="device/hardkernel/odroidxu3" name="android_device_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.0_5422" groups="device" >
   <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
