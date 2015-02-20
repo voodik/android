@@ -327,7 +327,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
   <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" revision="refs/heads/cm-12.0_5422" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
@@ -336,7 +336,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="refs/heads/cm-12.0_5422" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk" remote="origin" revision="refs/heads/cm-12.0_5422" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -423,7 +423,7 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
-  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/master" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/cm-12.0_5422" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-12.0-caf" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/cm-12.0_5422" />
