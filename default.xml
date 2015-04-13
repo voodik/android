@@ -52,7 +52,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/hardkernel/odroidxu3" name="android_device_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.1_5422" groups="device" >
+  <project path="device/hardkernel/odroidxu" name="android_device_hardkernel_odroidxu" remote="origin" revision="refs/heads/cm-12.1_5410" groups="device" >
   <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
@@ -75,7 +75,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
@@ -329,7 +329,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
   <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
@@ -337,8 +337,8 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -347,7 +347,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -365,7 +365,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -375,7 +375,7 @@
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
@@ -393,8 +393,8 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="origin" revision="refs/heads/cm-12.1_5422" groups="pdk" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="origin" revision="refs/heads/cm-12.1_5410" groups="pdk" />
  <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
@@ -427,19 +427,19 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
-  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
-  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="hardware/samsung_slsi/exynos5422" name="android_hardware_samsung_slsi_exynos5422" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/cm-12.1_5410" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="android_hardware_samsung_slsi_exynos5-insignal" remote="origin" revision="refs/heads/cm-12.1_5410" />
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="origin" revision="refs/heads/cm-12.1_5410" />
+  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="kernel/hardkernel/odroidxu3" name="android_kernel_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="kernel/hardkernel/odroidxu" name="android_kernel_hardkernel_odroidxu" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
@@ -474,7 +474,7 @@
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-<project path="packages/apps/OdroidUpdater" name="android_packages_apps_OdroidUpdater" remote="origin" revision="refs/heads/cm-12.1_5422" />
+<project path="packages/apps/OdroidUpdater" name="android_packages_apps_OdroidUpdater" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
@@ -491,7 +491,7 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
-  <project path="packages/apps/Utility" name="android_packages_apps_Utility" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="packages/apps/Utility" name="android_packages_apps_Utility" remote="origin" revision="refs/heads/cm-12.1_5410" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
@@ -579,7 +579,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/cm-12.1_5422" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/cm-12.1_5410" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
@@ -593,5 +593,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/samsung_slsi" name="android_vendor_samsung_slsi" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="vendor/hardkernel/odroidxu" name="android_vendor_hardkernel_odroidxu" remote="origin" revision="refs/heads/cm-12.1_5410" />
 </manifest>
