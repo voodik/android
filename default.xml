@@ -596,4 +596,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/samsung_slsi" name="android_vendor_samsung_slsi" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
