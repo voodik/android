@@ -52,7 +52,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/hardkernel/odroidxu3" name="android_device_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.1_5422" groups="device" >
+  <project path="device/hardkernel/odroidxu3" name="android_device_hardkernel_odroidxu3_atv" remote="origin" revision="refs/heads/cm-12.1_5422_atv" groups="device" >
   <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
@@ -340,7 +340,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk" remote="origin" revision="refs/heads/cm-12.1_5422_atv" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -436,7 +436,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="kernel/hardkernel/odroidxu3" name="android_kernel_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.1_5422_4" />
+  <project path="kernel/hardkernel/odroidxu3" name="android_kernel_hardkernel_odroidxu3" remote="origin" revision="refs/heads/cm-12.1_5422_atv" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
@@ -470,7 +470,7 @@
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-<project path="packages/apps/OdroidUpdater" name="android_packages_apps_OdroidUpdater" remote="origin" revision="refs/heads/cm-12.1_5422" />
+<project path="packages/apps/OdroidUpdater" name="android_packages_apps_OdroidUpdater" remote="origin" revision="refs/heads/cm-12.1_5422_atv" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
