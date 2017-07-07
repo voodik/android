@@ -373,6 +373,7 @@
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
+  <project path="hardware/realtek" name="voodik/android_hardware_realtek" revision="cm-14.1_5422" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi-cm/exynos" name="voodik/android_hardware_samsung_slsi-cm_exynos" revision="cm-14.1_5422" groups="pdk" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" groups="pdk" />
